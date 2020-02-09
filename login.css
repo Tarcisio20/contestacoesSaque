@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #95a5a6 !important;
+} 
+
+.main-login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-login .main-ind label{
+    color: #455;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-login .main-ind{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.main-login .main-ind input{
+    height: 40px;
+    width: 400px;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #455;
+    background: #ccc;
+    outline: none;
+    transition: 3s;
+}
+
+.main-login .main-ind input:focus{
+    border-radius: 10px;
+    height: 50px;
+}
+
+.main-login a{
+    color: #455;
+    text-decoration: none !important;
+    font-size: 15px;
+}
+
+.main-login a:hover{
+    color: #fff;
+}
+
+.main-login a.button{
+    background-image: linear-gradient( #f39c12, #f1c40f);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s;
+    color: #fff;
+    width: 400px;
+    text-align: center;
+}
+
+.main-login a.button:hover{
+    background-image:  linear-gradient( #f1c40f, #f39c12);
+    color: #fff;
+    border-radius: 10px;
+}
