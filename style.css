@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: #ecf0f1;
+}
+i.icon {
+  background: transparent !important;
+  margin-right: 10px !important;
+}
+
+.title-auth{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-auth:after{
+  content: '';
+  width: 90%;
+  height: 3px;
+  background: #ccc;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.main{
+  padding: 20px;
+}
+
+.top-page{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.form-search{
+  margin-left: 30px;
+}
+
+.form-search input{
+  height: 50px;
+  min-width: 200px;
+  width: 300px;
+  border: 1px solid #DDD;
+  background: #EEE;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-search .search{
+  width:100px;
+  border-radius: 4px;
+  background: #fd9644;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 150px;
+}
+
+.form-search .search:hover{
+  background: #fa8231;
+  color: #fff;
+}
+
+.add{
+  border-radius: 4px;
+  width: 100px;
+  background: #20bf6b;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
+
+.add:hover{
+  background: #26de81;
+  color: #fff;
+}
+
+.bottom-page{
+  padding-top: 20px;
+}
+
+.table{
+  width: 100%;
+  text-align: center;
+}
+
+
+.status-ok{
+  color: #20bf6b;
+}
+
+.status-not-ok{
+  color: #eb3b5a;
+}
+
+.status-wait{
+  color: #fed330;
+}
+
+.medlle{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.medlle span{
+  margin-right: 20px;
+}
+
+/*
+#
+#
+#
+#
+*/
+
+
+.form-add{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-min{
+  max-width: 120px;
+  margin-right: 10px;
+}
+
+.input-med{
+  width: 100%;
+}
+
+
+.container-inputs{  
+  display: flex;
+}
+
+.form-group label{
+  color: #333;
+}
+
+.form-group a .btn .btn-internal{
+  color: #fff;
+}
+
+
+/*
+#
+#
+#
+#
+*/
+
+form .form-login{
+  max-width: 400px;
+}
